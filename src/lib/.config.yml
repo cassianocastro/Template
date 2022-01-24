@@ -1,0 +1,9 @@
+---
+dbconfig:
+    driver:
+    host: localhost
+    port:
+    database:
+    user:
+    password:
+...

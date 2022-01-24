@@ -1,0 +1,31 @@
+{
+    "name": "template/template",
+    "description": "Template containing the structure for a future project.",
+    "type": "project",
+    "license": "MIT",
+	"readme": "./README.md",
+	"keywords": [
+		"template",
+		"template"
+	],
+	"authors": [
+		{
+			"name": "Cassiano Castro",
+			"email": "development.castro@gmail.com",
+			"role": "Developer"
+		}
+	],
+    "autoload-dev": {
+        "psr-4": {
+            "": "src/"
+        }
+    },
+	"prefer-stable": true,
+    "minimum-stability": "stable",
+    "require": {},
+	"config": {
+		"sort-packages": true,
+		"optimize-autoloader": false,
+		"preferred-install": "dist"
+	}
+}
